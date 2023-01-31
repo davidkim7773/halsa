@@ -1,12 +1,11 @@
-import MainContainer from "./containers/MainContainer"
+import MainContainer from "./containers/MainContainer";
 
 const App = () => {
-
   return (
     <div className="App">
-     <MainContainer/>
+      <MainContainer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
