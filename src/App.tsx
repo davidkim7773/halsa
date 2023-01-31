@@ -1,11 +1,10 @@
-import { useState } from 'react'
+import MainContainer from "./containers/MainContainer"
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
 
   return (
     <div className="App">
-     <h1>test</h1>
+     <MainContainer/>
     </div>
   )
 }
